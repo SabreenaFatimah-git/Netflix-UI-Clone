@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Segoe UI';
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/largebgimg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 120vw);
+    height: 89.8vh;
+    width: 100vw;
+    /* height: 65.8vh; */
+    position: relative;
+    background-repeat: no-repeat;
+    /* border: 4px solid blue; */
+}
+
+.main .box {
+    height: 89.8vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    /* border: 1px solid yellow; */
+
+}
+
+nav {
+    /* border: 3px solid rgb(255, 0, 208); */
+    height: 62px;
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px 0px 0px;
+
+
+}
+
+nav img {
+    width: 145px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    /* border: 1px solid rgb(25, 195, 17); */
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 10px;
+    text-align: center;
+
+
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 48px;
+    font-weight: 850;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 0.5rem;
+    width: 100vw;
+    background-color: rgb(35, 35, 35);
+    opacity: 0.9;
+    position: relative;
+    z-index: 20;
+}
+
+.hero-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.btn {
+    font-weight: bolder;
+    background-color: white;
+    padding: 5px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    /* width: 120px; */
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    padding: 7px 12px 5px 12px;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: 0;
+
+}
+
+.main input {
+    padding: 16px 170px 17px 21px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.6);
+    /* background-color: rgba(243, 243, 244, 0.2); */
+    font-weight: bolder;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+
+}
+
+input::placeholder {
+
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 12px 38px 12px 28px;
+    font-size: 23px;
+    border-radius: 4px;
+    border: 0;
+    font-weight: 1000;
+}
+
+.btn-english {
+    color: white;
+    font-weight: bolder;
+    padding: 5px 23px 4px 13px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+
+}
+
+.hero-btns img {
+
+    /* border: 1px solid blue; */
+    width: 14px;
+
+}
+
+.btn img {
+    width: 14px;
+}
+
+.btn .arrow {
+    height: 6px;
+    padding-left: 4px;
+}
+
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 75vh;
+    margin: auto;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+.first-sec {
+    /* border: 2px solid #72e911; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 85vw;
+    height: 75vh;
+    margin: auto;
+    color: white;
+}
+.inner-container {
+    /* background-color: #81bd7c;  */
+    /* border: 2px solid #cb6104; */
+    max-width: 75vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+/* .first-sec {
+    gap: 10px;
+    max-width: 70vw;
+    height: 75vh;
+    margin: auto;
+    color: white;
+    position: relative;
+    /* border: 2px solid rgb(11, 27, 121);} */
+
+ .image-box{
+        /* border: 4px solid purple; */
+        position: relative;
+        width: 600px;
+        flex-direction: column;
+    }
+
+.stranger-img {
+
+    top: 10px;
+    /* position: relative; */
+    /* border: 2px solid yellow; */
+
+
+
+}
+
+.stranger-img img {
+    width: 550px;
+    height: 430px;
+    /* position: relative; */
+
+
+}
+
+.card-st {
+
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    border-radius: 0.75rem;
+    position: absolute;
+    width: 300px;
+    height: 85px;
+   transform: translateX(-1%) translateY(-500%);
+    background-color: black;
+    
+    margin: 310px 0 0 126px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stranger-download {
+    
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+.stimg {
+
+    position: absolute;
+    transform: translateX(10px) translateY(5px);
+    /* border: 1px solid red; */
+    border: none;
+    width: 53px;
+    height: auto;
+
+}
+
+.stimg-img {
+    position: absolute;
+    width: 53px;
+    height: auto;
+
+}
+
+.st-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin: 15px 0px 0px 80px;
+
+}
+
+.st-gif {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* border: 2px solid red; */
+    margin: -45px 0px 0px 222px;
+}
+
+.st-gif img {
+    /* border: 2px solid yellow; */
+    width: 55px;
+    height: 55px;
+}
+
+.st-text>:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.st-text>:nth-child(2) {
+    font-size: 14px;
+    color: #0071eb;
+}
+
+/* section.card-st.st-text>:nth-child(1){
+    font-size: 5px;
+    color: aqua;
+} */
+.secimg {
+    /* border: 2px solid red; */
+    /* top: 10px; */
+    position: relative;
+
+
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    right: 1px;
+    top: 109px;
+    width: 480px;
+}
+
+
+.sec3img {
+    /* border: 2px solid red; */
+    top: 10px;
+    position: relative;
+
+
+}
+
+.sec3img img {
+    width: 554px;
+    position: relative;
+    z-index: 10;
+}
+
+.sec3img video {
+    width: 350px;
+    position: absolute;
+    right: 111px;
+    top: 89px;
+
+}
+
+section.first>div {
+    /* border: 2px solid yellow;   */
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0px;
+}
+
+section.first>div :nth-child(1) {
+
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 47px;
+    font-weight: 850;
+}
+
+section.first>div :nth-child(2) {
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 24px;
+}
+
+/* section.first-sec>div {
+    /* display: flex;
+   
+    padding: 34px 0px;
+
+}   */
+
+section.first-sec .stranger-download> :nth-child(1) {
+    /* margin-top: 10px;  */
+    /* padding: 20px; */
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 47px;
+    font-weight: 850;
+}
+
+section.first-sec .stranger-download>:nth-child(2) {
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 24px;
+}
+
+
+.faq {
+    background-color: black;
+    width: 100vw;
+    color: white;
+    padding: 42px 0px 35px 0px;
+    text-align: center;
+    font-family: 'Segoe ui', 'Martel Sans';
+    /* font-size: 43px;
+    font-weight: 850; */
+
+
+}
+
+.faq h2 {
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI';
+    /* font-weight:bold; */
+
+
+}
+
+.faq-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    padding: 24px;
+    max-width: 70vw;
+    margin: 10px auto 0px;
+    cursor: pointer;
+    font-style: 'Segoe UI';
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 1s ease-out;
+
+}
+
+.faq-box:hover {
+    background-color: #414141;
+
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+    height: 50vh;
+}
+
+footer .Questions {
+    padding: 23px 0px;
+    color: #ffffffb3;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 140px;
+
+}
+
+
+.footer a {
+    font-size: 13px;
+    color: #ffffffb3;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.end-login {
+    margin: 50px;
+    font-family: 'Segoe ui', 'Martel Sans';
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    /* background-color: yellow; */
+
+}
+
+.end-login-btns {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+
+}
+
+.faq input {
+
+    padding: 16px 170px 17px 21px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.6);
+    /* background-color: rgba(243, 243, 244, 0.2); */
+    font-weight: bolder;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+.footer-btn {
+    margin-top: 25px;
+}
+
+.end-text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffffb3;
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .end-login-btns {
+        flex-wrap: wrap;
+
+    }
+
+    .end-login {
+        font-size: 18px;
+
+    }
+
+
+
+    .faq input {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+        height: 68vh;
+        max-width: 85vw;
+
+
+
+    }
+
+    section.first>div :nth-child(1) {
+
+        font-size: 24px;
+        font-weight: 850;
+
+    }
+
+    section.first>div :nth-child(2) {
+
+        font-size: 14px;
+    }
+
+    .first-sec {
+        flex-wrap: wrap;
+        height: 65vh;
+        max-width: 85vw;
+        /* margin-top: 40px; */
+
+    }
+
+    .inner-container{
+        flex-wrap: wrap;
+        max-width: 65vw;
+    height: 30vh;
+    }
+
+    .stranger-download {
+        margin-top: 50px;
+        height: 140px;
+        
+        
+    }
+
+    section.first-sec .stranger-download> :nth-child(1) {
+
+        font-size: 29px;
+        font-weight: 850;
+    }
+
+    section.first-sec .stranger-download> :nth-child(2) {
+
+        font-size: 14px;
+    }
+
+    .secimg img {
+        width: 400px;
+
+    }
+
+    .secimg video {
+
+        width: 340px;
+        top: 90px;
+        right: 6px;
+
+    }
+
+    .sec3img img {
+        width: 410px;
+        margin-left: 1px;
+    }
+
+    .sec3img video {
+        width: 260px;
+        right: 84px;
+        top: 75px;
+    }
+
+    .main {
+        height: 65.8vh;
+    }
+
+    .main .box {
+        height: 65.8vh;
+    }
+
+    .hero {
+        height: calc(100% - 82px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+        gap: 10px;
+        padding: 0 10px;
+        text-align: center;
+        /* border: 2px solid blue; */
+
+
+    }
+
+
+    .hero> :nth-child(1) {
+
+        font-size: 28px;
+        font-weight: 850;
+
+    }
+
+    .hero> :nth-child(2) {
+
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .hero> :nth-child(3) {
+
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+    }
+
+    .btn-red-sn {
+
+        padding: 7px 12px 5px 12px;
+        font-size: 12px;
+    }
+
+
+
+    .btn-english {
+
+        font-weight: bolder;
+        padding: 5px 10px 4px 10px;
+        font-size: 12px;
+    }
+
+    .main input {
+        padding: 16px 80px 17px 10px;
+        font-size: 12px;
+    }
+
+    .btn-red {
+        padding: 8px 5px 8px 9px;
+        font-size: 14px;
+    }
+
+    .faq h2 {
+        font-size: 25px;
+    }
+
+    .faq-box {
+        padding: 20px;
+        max-width: 50vw;
+        font-size: 18px;
+
+
+    }
+
+     .image-box{
+        width: 320px;
+        height: 280px;
+        
+    } 
+
+
+   .image-box .stranger-img img {
+        margin-top: 30px;
+        width: 320px;
+        height: 280px;
+    }
+
+   .image-box .card-st {
+        width: 180px;
+        height: 65px;
+        margin: 260px 0 0 67px;
+    }
+
+    .stimg {
+        width: 39px;
+        height: auto;
+
+    }
+
+    .stimg-img {
+
+        width: 39px;
+        height: auto;
+
+    }
+
+    .st-text {
+        width: 36%;
+        margin:4px 0px 0px 67px;
+
+    }
+
+    .st-gif {
+        width: 25%;
+        margin: -48px 0px 0px 139px;
+    }
+
+    .st-gif img {
+
+        width: 35px;
+        height: 35px;
+    }
+
+    .st-text>:nth-child(1) {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .st-text>:nth-child(2) {
+        font-size: 10px;
+        color: #0071eb;
+    }
+
+    section.first-sec .stranger-download> :nth-child(1) {
+        font-size: 28px;
+        font-weight: 850;
+    }
+
+    section.first-sec .stranger-download>:nth-child(2) {
+        font-family: 'Segoe ui', 'Martel Sans';
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+
+    section.first>div :nth-child(1) {
+
+        font-size: 28px;
+        font-weight: 850;
+    }
+
+    section.first>div :nth-child(2) {
+
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+   
+    
+    .stranger-download {
+        margin-top: 80px;
+        margin-bottom: 70px;
+        height: 140px;
+        /* width:100vw; */
+        
+        
+    }
+    
+    .image-box .stranger-img img {
+        margin-top:0px;
+        width: 290px;
+        height: 260px;
+    }
+
+   .image-box .card-st {
+        width: 170px;
+        height:60px;
+        margin: 230px 0px 0px 59px;
+    }
+
+    .stimg {
+        width: 38px;
+        height: auto;
+
+    }
+
+    .stimg-img {
+
+        width: 38px;
+        height: auto;
+
+    }
+
+    .st-text {
+        width: 40%;
+        margin: 8px 0px 0px 60px;
+
+    }
+
+    .st-gif {
+        width: 3%;
+        margin: -42px 0px 0px 115px;
+    }
+
+    .st-gif img {
+
+        width: 35px;
+        height: 35px;
+    }
+
+    .st-text>:nth-child(1) {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .st-text>:nth-child(2) {
+        font-size: 8px;
+        color: #0071eb;
+    }
+
+    .first-sec {
+        margin-right: 66px;
+
+    }
+
+    .sec3img img {
+        width: 350px;
+        margin-left: 1px;
+    }
+
+    .sec3img video {
+        width: 210px;
+        right: 84px;
+        top: 69px;
+    }
+}
