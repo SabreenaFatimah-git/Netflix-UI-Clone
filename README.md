@@ -8,7 +8,7 @@ This is a simple clone of the Netflix homepage built using HTML and CSS. The pro
 - **Hero Section**: Includes Netflix-style header and sign-up form.
 - **Multiple Sections**: Simulates features like TV watching, downloading shows, and kids' profiles.
 - **FAQ Section**: Contains collapsible FAQ items.
-- **Footer**: Contains links to various Netflix-related pages and contact information.
+- **Footer**: Links to various Netflix-related pages and contact information.
 - **Interactive Elements**: Buttons and input fields with hover effects.
 
 ## Technologies Used
